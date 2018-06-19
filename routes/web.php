@@ -1,3 +1,4 @@
+
 <?php
 
 /*
@@ -11,16 +12,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/home', function () {
-    return 'Hello World';
-})->middleware('home');
-
-Route::get('/home1', 'HomeController@show');
 
 Route::get('blade', function () {
     return view('start');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
