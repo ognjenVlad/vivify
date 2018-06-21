@@ -15,9 +15,13 @@
 
 
 Route::get('blade', function () {
-    return view('start');
+    return view('appjs');
 });
 
+Route::get('/js', function()
+{
+    return view('js');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
