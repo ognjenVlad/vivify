@@ -191,6 +191,7 @@ return [
     | Supported: "lax", "strict"
     |
     */
+	'domain' => env('SESSION_DOMAIN', null),
 
     'same_site' => null,
 
