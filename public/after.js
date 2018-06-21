@@ -1,1 +1,1 @@
-var after = "afterFunction";
+var after = "afterFunction\n";
