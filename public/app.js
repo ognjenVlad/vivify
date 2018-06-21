@@ -19,7 +19,7 @@ var jsonObject = {"ime":"ognjen","prezime":"vladisavljevic"};
 var jsonArray = [{"ime":"ognjen","prezime":"vladisavljevic"},
 {"ime":"ime2","prezime":"prezime2"},{"ime":"ime3","prezime":"prezime3"}];
 
-var Person = function(ime, prezime, pol) {
+function Person(ime, prezime, pol) {
     this.first_name = ime;
     this.last_name = prezime;
     this.gender = pol; 

@@ -17,7 +17,9 @@
 Route::get('blade', function () {
     return view('appjs');
 });
-
+Route::get('zdravstvena', function () {
+    return view('zdravstvena');
+});
 Route::get('/js', function()
 {
     return view('js');
